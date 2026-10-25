@@ -81,3 +81,5 @@ Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian c
 - [x] Status awal yang tidak berguna dikosongkan.
 - [x] Kredit Endjiansyah dipindahkan ke footer bawah.
 - [x] Logo EndProjects dapat diklik menuju portfolio.
+- [x] Status Ready/placeholder awal dihapus.
+- [x] Footer dan dropdown bahasa dipindahkan ke alur normal agar tidak menutupi konten.

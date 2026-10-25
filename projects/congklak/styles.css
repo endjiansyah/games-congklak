@@ -64,3 +64,5 @@ h1 { margin: 0; font-size: clamp(3rem, 10vw, 7rem); line-height: .9; }
 .brand-mark img { width: 48px; height: 48px; }
 .game-title { margin: 0 0 0 auto; color: #f5e7c7; font-family: Georgia, serif; font-size: clamp(1.65rem, 4vw, 2.6rem); letter-spacing: -.04em; line-height: 1; }
 .sepuh-mode .game-title { color: #f0c078; text-shadow: 0 0 18px #bc713e99; }
+.control-panel + .game-info { margin-top: 36px; }
+@media (max-width: 680px) { .control-panel + .game-info { margin-top: 24px; } }

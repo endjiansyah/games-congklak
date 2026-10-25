@@ -1,0 +1,22 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  background: #102b27;
+  color: #f7e8c4;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; background: radial-gradient(circle at top, #2c6651, #102b27 65%); }
+.app-shell { width: min(960px, 92vw); margin: 0 auto; padding: 24px 0 40px; }
+.brand-bar { display: flex; justify-content: space-between; gap: 16px; color: #b9d5a7; }
+.brand { margin: 0; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.status { margin: 0; opacity: .8; }
+.hero { padding: 12vh 0 7vh; }
+.eyebrow, .direction-note { color: #e7b96a; letter-spacing: .08em; text-transform: uppercase; font-size: .78rem; }
+h1 { margin: 0; font-size: clamp(3rem, 10vw, 7rem); line-height: .9; }
+.hero p:last-child { max-width: 480px; color: #d7dbc3; font-size: 1.1rem; }
+.board-placeholder { display: grid; gap: 12px; padding: 28px; border: 3px solid #8a5730; border-radius: 42px; background: #6e4028; box-shadow: inset 0 0 0 8px #a96e3d, 0 24px 50px #06171388; }
+.pit-row { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; }
+.pit-row span { aspect-ratio: 1; border-radius: 50%; background: #3a241b; box-shadow: inset 0 6px 8px #130c09, 0 2px 0 #d28a4c; }
+.board-center { padding: 28px 0; text-align: center; color: #f0c47e; font-weight: 700; }
+.direction-note { text-align: center; }
+@media (max-width: 560px) { .app-shell { padding-top: 16px; } .hero { padding-top: 9vh; } .board-placeholder { padding: 16px; border-radius: 28px; } .pit-row { gap: 6px; } }

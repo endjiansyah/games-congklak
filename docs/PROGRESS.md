@@ -50,3 +50,8 @@ Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian c
 - [x] Pilihan pemain pertama: Pemain 1, Pemain 2, atau Acak.
 - [x] Duel desktop memakai dua papan atas-bawah dengan separator dan latar berbeda.
 - [x] Tampilan split disembunyikan di mobile.
+## Turn highlight duel
+
+- [x] Papan aktif mendapat glow sesuai giliran.
+- [x] Papan nonaktif diredupkan dan disabled.
+- [x] Highlight jalur tidak tampil pada papan nonaktif.

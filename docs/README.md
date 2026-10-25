@@ -30,4 +30,6 @@ Ring permainan memakai 16 slot: 14 lubang dan 2 lumbung. Slot 0 adalah lumbung k
 
 Penyebaran aktual dianimasikan satu biji setiap 260 ms agar arah, lumbung, capture, dan giliran tambahan bisa diperiksa secara visual.
 
+Jika biji terakhir jatuh di lubang mana pun yang masih berisi biji, seluruh isi lubang itu diambil dan penyebaran berlanjut. Jika berhenti di lubang kosong milik sendiri, aturan capture dijalankan. Lumbung lawan tetap dilewati dan tidak dapat diambil kembali sebagai skor.
+
 Pada duel mobile, tombol `Putar untuk Pemain 2` memutar papan 180 derajat sehingga dua pemain dapat duduk berhadapan. Pada desktop, papan tetap satu area bersama dengan kartu status kedua pemain.

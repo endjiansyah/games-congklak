@@ -30,3 +30,9 @@ Milestone 1 — gameplay playable
 ## Berikutnya
 
 Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian congklak. Deploy tetap ditunda sampai diminta.
+## Aturan lanjutan dan highlight
+
+- [x] Jika biji terakhir jatuh di lubang berisi, isi lubang diambil dan permainan lanjut.
+- [x] Slot yang sedang dilewati mendapat highlight/glow.
+- [x] Lubang yang dapat dipilih mendapat hover glow.
+- [x] Lumbung lawan tetap dilewati sebagai lumbung penyimpanan.

@@ -73,3 +73,6 @@ Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian c
 - [x] Tema coklat last boss untuk difficulty Sepuh.
 - [x] Layout mobile dipusatkan pada papan dengan arahan landscape.
 - [x] Tombol permintaan orientation lock ditambahkan dengan fallback instruksi manual.
+- [x] Difficulty disembunyikan pada Duel.
+- [x] Background Duel dipastikan kembali ke tema default.
+- [x] Logo diganti ke `public/assets/logo.png` milik project Endjiansyah.

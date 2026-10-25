@@ -46,7 +46,9 @@ Jika salah satu lumbung memiliki lebih dari 49 dari total 98 biji, tombol `Akhir
 
 AI `Sepuh` memakai pencarian lebih dalam setelah permainan berjalan. Jika komputer menjadi pemain pertama, pembukaan sengaja memilih rantai dengan hasil lumbung paling kecil agar tidak langsung menghasilkan pembukaan ekstrem.
 
-Logo lokal berada di `projects/congklak/assets/endprojects-logo.webp`, bersumber dari situs portfolio Endjiansyah, sehingga game tidak membutuhkan koneksi eksternal saat dimainkan.
+Logo lokal berada di `projects/congklak/assets/endprojects-logo.png`, disalin dari `endjiansyah.github.io/public/assets/logo.png`, sehingga game tidak membutuhkan koneksi eksternal saat dimainkan.
+
+Difficulty hanya berlaku pada mode Solo. Mode Duel selalu memakai background default dan tidak menggunakan level AI.
 
 Difficulty `Sepuh` memakai tema coklat last boss dan papan khusus. Pada mobile portrait, elemen dekoratif disederhanakan agar papan menjadi fokus utama. Tombol `Putar ke landscape` mencoba fullscreen dan orientation lock bila browser mendukung; bila tidak, game memberi instruksi manual.
 

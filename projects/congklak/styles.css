@@ -23,6 +23,7 @@ h1 { margin: 0; font-size: clamp(3rem, 10vw, 7rem); line-height: .9; }
 
 /* Playable board skin */
 .app-shell { width: min(1080px, 92vw); }
+.control-group[hidden], .is-hidden { display: none !important; }
 .brand-mark img { width: 30px; height: 30px; border-radius: 8px; object-fit: contain; background: #f5e7c7; }
 .creator-credit { position: fixed; right: 15px; bottom: 14px; z-index: 10; margin: 0; color: #8ca497; font-size: .68rem; }.creator-credit a { color: #e9b667; text-decoration: none; }.creator-credit a:hover { text-decoration: underline; }
 .brand-bar, .game-info, .board-actions { display: flex; align-items: center; justify-content: space-between; gap: 18px; }

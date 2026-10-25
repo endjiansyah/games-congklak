@@ -78,3 +78,6 @@ Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian c
 - [x] Logo diganti ke `public/assets/logo.png` milik project Endjiansyah.
 - [x] Tampilan utama dibersihkan dari copy pengantar dan footer teknis yang tidak penting.
 - [x] Logo diperbesar tanpa background dan kredit Endjiansyah dibuat menonjol.
+- [x] Status awal yang tidak berguna dikosongkan.
+- [x] Kredit Endjiansyah dipindahkan ke footer bawah.
+- [x] Logo EndProjects dapat diklik menuju portfolio.

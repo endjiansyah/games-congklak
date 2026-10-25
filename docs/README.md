@@ -12,14 +12,21 @@ python -m http.server
 
 Kemudian buka `http://localhost:8000/projects/congklak/`.
 
-## Arsitektur awal
+## Arsitektur
 
 - `index.html`: struktur halaman dan elemen UI.
 - `styles.css`: tema visual, layout responsif, dan orientasi duel.
-- `script.js`: entry point JavaScript; logika permainan akan ditambahkan bertahap.
+- `game.js`: entry point dan logika permainan vanilla.
+- `styles.css`: tema visual, papan, layout responsif, dan orientasi duel.
 
 Tidak ada dependency eksternal dan tidak ada backend.
 
 ## Arah desain
 
-Papan dibuat dari elemen HTML/CSS ringan terlebih dahulu. Efek low-poly, ornamen Nusantara, dan aset tambahan akan ditambahkan secara bertahap setelah aturan permainan tervalidasi.
+Papan dibuat dari elemen HTML/CSS ringan agar tidak membutuhkan aset besar atau runtime 3D. Efek low-poly, ornamen Nusantara, dan aset tambahan dapat ditambahkan bertahap setelah aturan permainan tervalidasi.
+
+## Aturan implementasi
+
+Ring permainan memakai 16 slot: 14 lubang dan 2 lumbung. Slot 0 adalah lumbung kiri Pemain 1, slot 8 lumbung Pemain 2. Penyebaran berjalan naik indeks dan selalu melewati lumbung lawan.
+
+Pada duel mobile, tombol `Putar untuk Pemain 2` memutar papan 180 derajat sehingga dua pemain dapat duduk berhadapan. Pada desktop, papan tetap satu area bersama dengan kartu status kedua pemain.

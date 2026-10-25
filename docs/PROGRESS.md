@@ -21,6 +21,12 @@ Milestone 1 — gameplay playable
 - `feat: add playable congklak game loop` — papan playable, AI solo, duel, capture, extra turn, dan rotasi mobile.
 - `feat: polish low-poly board and duel POV` — indikator POV, tampilan biji, dan polish papan responsif.
 
+## Audit animasi
+
+- [x] Ring permainan memakai langkah mundur secara visual agar geraknya searah jarum jam.
+- [x] Biji disebarkan satu per satu dengan jeda 260 ms.
+- [x] Status giliran menampilkan nomor biji yang sedang dijatuhkan.
+
 ## Berikutnya
 
-Lakukan pemeriksaan manual lintas ukuran layar dan siapkan publikasi GitHub Pages.
+Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian congklak. Deploy tetap ditunda sampai diminta.

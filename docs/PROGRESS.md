@@ -70,3 +70,6 @@ Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian c
 - [x] AI Sepuh diberi handicap pembukaan ringan saat komputer mulai lebih dulu.
 - [x] Logo EndProjects lokal dan kredit Endjiansyah ditambahkan.
 - [x] Pembukaan AI Sepuh dipaksa memilih hasil lumbung paling kecil.
+- [x] Tema coklat last boss untuk difficulty Sepuh.
+- [x] Layout mobile dipusatkan pada papan dengan arahan landscape.
+- [x] Tombol permintaan orientation lock ditambahkan dengan fallback instruksi manual.

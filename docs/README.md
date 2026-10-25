@@ -48,4 +48,6 @@ AI `Sepuh` memakai pencarian lebih dalam setelah permainan berjalan. Jika komput
 
 Logo lokal berada di `projects/congklak/assets/endprojects-logo.webp`, bersumber dari situs portfolio Endjiansyah, sehingga game tidak membutuhkan koneksi eksternal saat dimainkan.
 
+Difficulty `Sepuh` memakai tema coklat last boss dan papan khusus. Pada mobile portrait, elemen dekoratif disederhanakan agar papan menjadi fokus utama. Tombol `Putar ke landscape` mencoba fullscreen dan orientation lock bila browser mendukung; bila tidak, game memberi instruksi manual.
+
 Papan nonaktif sengaja hanya diredupkan ringan agar jejak biji tetap dapat diamati. Glow putih menandai lumbung yang sedang menerima biji. Dropdown bahasa di kiri bawah menerjemahkan UI ke Indonesia atau English, termasuk status permainan, aturan, trivia, dan modal hasil.

@@ -54,6 +54,8 @@ Tampilan utama sengaja dibuat ringkas: logo, kredit pembuat, kontrol permainan, 
 
 Logo dapat diklik untuk membuka `https://endjiansyah.github.io/`. Kredit pembuat berada di footer bawah, bukan sidebar.
 
+Header dibuat ringkas: logo EndProjects berada di kiri dan judul Congklak di kanan, sehingga tidak ada ruang hero besar yang mengganggu fokus papan.
+
 Difficulty `Sepuh` memakai tema coklat last boss dan papan khusus. Pada mobile portrait, elemen dekoratif disederhanakan agar papan menjadi fokus utama. Tombol `Putar ke landscape` mencoba fullscreen dan orientation lock bila browser mendukung; bila tidak, game memberi instruksi manual.
 
 Papan nonaktif sengaja hanya diredupkan ringan agar jejak biji tetap dapat diamati. Glow putih menandai lumbung yang sedang menerima biji. Dropdown bahasa di kiri bawah menerjemahkan UI ke Indonesia atau English, termasuk status permainan, aturan, trivia, dan modal hasil.

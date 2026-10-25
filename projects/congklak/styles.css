@@ -58,3 +58,9 @@ h1 { margin: 0; font-size: clamp(3rem, 10vw, 7rem); line-height: .9; }
 .rotate-screen { display: none; }.creator-credit { bottom: 14px; }
 @media (max-width: 680px) and (orientation: portrait) { body { min-width: 320px; }.hero, .trivia-card, .rules-card, footer { display: none; }.app-shell { width: 100%; padding: 10px 10px 30px; }.brand-bar { padding: 0 4px 8px; }.control-panel { gap: 8px; padding: 10px; }.control-panel .control-group:first-child, .control-panel .control-group:nth-child(2), .control-panel .control-group:nth-child(3) { flex: 1 1 30%; }.speed-control { flex: 1 1 100% !important; }.board-wrap { padding: 12px 0; }.board { min-height: 300px; }.board-actions { gap: 8px; }.direction-note { display: none; }.rotate-screen { display: inline-flex !important; }.board-wrap::before { display: block; margin: 0 0 5px; color: #e9b667; content: '↻  Putar HP ke landscape untuk pengalaman terbaik'; font-size: .68rem; letter-spacing: .04em; text-align: center; }.creator-credit { display: none; }.language-picker { bottom: 8px; left: 8px; transform: scale(.9); transform-origin: bottom left; } }
 @keyframes inactive-path-glow { from { filter: brightness(1); } to { filter: brightness(1.35); } } @keyframes store-white-glow { from { filter: brightness(1.2); } to { filter: brightness(1.8); } }
+/* Compact header: brand left, game title right. */
+.hero { display: none; }
+.brand-bar { min-height: 58px; }
+.brand-mark img { width: 48px; height: 48px; }
+.game-title { margin: 0 0 0 auto; color: #f5e7c7; font-family: Georgia, serif; font-size: clamp(1.65rem, 4vw, 2.6rem); letter-spacing: -.04em; line-height: 1; }
+.sepuh-mode .game-title { color: #f0c078; text-shadow: 0 0 18px #bc713e99; }

@@ -26,6 +26,8 @@ Papan dibuat dari elemen HTML/CSS ringan agar tidak membutuhkan aset besar atau 
 
 ## Aturan implementasi
 
-Ring permainan memakai 16 slot: 14 lubang dan 2 lumbung. Slot 0 adalah lumbung kiri Pemain 1, slot 8 lumbung Pemain 2. Penyebaran berjalan naik indeks dan selalu melewati lumbung lawan.
+Ring permainan memakai 16 slot: 14 lubang dan 2 lumbung. Slot 0 adalah lumbung kiri Pemain 1, slot 8 lumbung Pemain 2. Penyebaran berjalan berlawanan arah indeks visual (mengitari papan searah jarum jam) dan selalu melewati lumbung lawan.
+
+Penyebaran aktual dianimasikan satu biji setiap 260 ms agar arah, lumbung, capture, dan giliran tambahan bisa diperiksa secara visual.
 
 Pada duel mobile, tombol `Putar untuk Pemain 2` memutar papan 180 derajat sehingga dua pemain dapat duduk berhadapan. Pada desktop, papan tetap satu area bersama dengan kartu status kedua pemain.

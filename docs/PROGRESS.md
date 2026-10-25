@@ -43,3 +43,10 @@ Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian c
 - [x] Dua papan POV berdampingan pada duel desktop.
 - [x] Split duel disembunyikan pada mobile; mobile memakai satu papan dan rotasi.
 - [x] Efek visual kemenangan.
+## Hasil, aturan, dan layout duel
+
+- [x] Modal hasil dengan skor, statistik, akurasi heuristik, dan saran.
+- [x] Tombol `Cara bermain` dengan aturan lengkap dalam modal.
+- [x] Pilihan pemain pertama: Pemain 1, Pemain 2, atau Acak.
+- [x] Duel desktop memakai dua papan atas-bawah dengan separator dan latar berbeda.
+- [x] Tampilan split disembunyikan di mobile.

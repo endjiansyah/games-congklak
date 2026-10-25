@@ -37,3 +37,5 @@ Pada duel mobile, tombol `Putar untuk Pemain 2` memutar papan 180 derajat sehing
 Pada duel desktop, area permainan menampilkan dua papan POV berdampingan: papan kiri untuk Pemain 1 dan papan kanan terbalik untuk Pemain 2. Split ini otomatis disembunyikan pada layar mobile.
 
 Kontrol kecepatan menyediakan `0.5×`, `1×`, `2×`, `4×`, dan `Skip`. Efek suara dibuat dengan Web Audio API sehingga tidak membutuhkan file audio eksternal dan tetap offline.
+
+Tombol `Cara bermain` membuka aturan lengkap dalam modal. Sebelum permainan baru, pemain dapat memilih Pemain 1, Pemain 2, atau Acak sebagai pemulai. Setelah permainan selesai, modal hasil menampilkan skor, langkah, capture, giliran tambahan, akurasi strategi berbasis heuristik, dan saran.

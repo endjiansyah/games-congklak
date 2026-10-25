@@ -41,3 +41,5 @@ Kontrol kecepatan menyediakan `0.5×`, `1×`, `2×`, `4×`, dan `Skip`. Efek sua
 Tombol `Cara bermain` membuka aturan lengkap dalam modal. Sebelum permainan baru, pemain dapat memilih Pemain 1, Pemain 2, atau Acak sebagai pemulai. Setelah permainan selesai, modal hasil menampilkan skor, langkah, capture, giliran tambahan, akurasi strategi berbasis heuristik, dan saran.
 
 Dalam duel, hanya papan pemain yang sedang mendapat giliran yang menyala dan dapat diklik. Papan pemain lain dibuat redup dan seluruh lubangnya dinonaktifkan.
+
+Papan nonaktif sengaja hanya diredupkan ringan agar jejak biji tetap dapat diamati. Glow putih menandai lumbung yang sedang menerima biji. Dropdown bahasa di kiri bawah saat ini sudah menjadi placeholder UI; penerjemahan penuh akan dikerjakan pada milestone bahasa terpisah.

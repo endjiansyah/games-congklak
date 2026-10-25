@@ -55,3 +55,11 @@ Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian c
 - [x] Papan aktif mendapat glow sesuai giliran.
 - [x] Papan nonaktif diredupkan dan disabled.
 - [x] Highlight jalur tidak tampil pada papan nonaktif.
+## AI, bahasa, trivia, dan dekorasi
+
+- [x] Papan nonaktif diredupkan ringan namun tetap menunjukkan glow jalur.
+- [x] Lumbung yang menerima biji mendapat glow putih.
+- [x] AI Sepuh memakai pencarian beberapa langkah.
+- [x] Akurasi hasil memakai skala relatif terhadap opsi langkah yang tersedia.
+- [x] Dropdown bahasa placeholder di kiri bawah.
+- [x] Trivia Congklak dan dekorasi low-poly ringan ditambahkan.

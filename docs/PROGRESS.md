@@ -67,3 +67,4 @@ Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian c
 - [x] Pilihan pemain pertama diterapkan pada Solo dan Duel.
 - [x] Permainan baru membatalkan timer AI dan animasi ronde sebelumnya.
 - [x] Tombol akhiri permainan muncul saat satu lumbung melewati mayoritas 50% biji.
+- [x] AI Sepuh diberi handicap pembukaan ringan saat komputer mulai lebih dulu.

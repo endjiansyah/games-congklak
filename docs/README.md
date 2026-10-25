@@ -44,4 +44,6 @@ Dalam duel, hanya papan pemain yang sedang mendapat giliran yang menyala dan dap
 
 Jika salah satu lumbung memiliki lebih dari 49 dari total 98 biji, tombol `Akhiri permainan & lihat hasil` muncul karena pemenang sudah dipastikan secara matematis. Tombol ini membatalkan ronde aktif dan membuka result.
 
+AI `Sepuh` memakai pencarian lebih dalam setelah permainan berjalan. Jika komputer menjadi pemain pertama, pembukaan diberi handicap ringan: pencarian lebih dangkal dan menghindari langkah pembukaan yang langsung menghasilkan rantai ekstrem.
+
 Papan nonaktif sengaja hanya diredupkan ringan agar jejak biji tetap dapat diamati. Glow putih menandai lumbung yang sedang menerima biji. Dropdown bahasa di kiri bawah menerjemahkan UI ke Indonesia atau English, termasuk status permainan, aturan, trivia, dan modal hasil.

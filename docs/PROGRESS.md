@@ -36,3 +36,10 @@ Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian c
 - [x] Slot yang sedang dilewati mendapat highlight/glow.
 - [x] Lubang yang dapat dipilih mendapat hover glow.
 - [x] Lumbung lawan tetap dilewati sebagai lumbung penyimpanan.
+## Audio, speed, dan duel POV
+
+- [x] Efek suara offline untuk jatuh, mengambil, klik, dan menang.
+- [x] Kontrol kecepatan `0.5×`, `1×`, `2×`, `4×`, dan `Skip`.
+- [x] Dua papan POV berdampingan pada duel desktop.
+- [x] Split duel disembunyikan pada mobile; mobile memakai satu papan dan rotasi.
+- [x] Efek visual kemenangan.

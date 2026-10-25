@@ -33,3 +33,7 @@ Penyebaran aktual dianimasikan satu biji setiap 260 ms agar arah, lumbung, captu
 Jika biji terakhir jatuh di lubang mana pun yang masih berisi biji, seluruh isi lubang itu diambil dan penyebaran berlanjut. Jika berhenti di lubang kosong milik sendiri, aturan capture dijalankan. Lumbung lawan tetap dilewati dan tidak dapat diambil kembali sebagai skor.
 
 Pada duel mobile, tombol `Putar untuk Pemain 2` memutar papan 180 derajat sehingga dua pemain dapat duduk berhadapan. Pada desktop, papan tetap satu area bersama dengan kartu status kedua pemain.
+
+Pada duel desktop, area permainan menampilkan dua papan POV berdampingan: papan kiri untuk Pemain 1 dan papan kanan terbalik untuk Pemain 2. Split ini otomatis disembunyikan pada layar mobile.
+
+Kontrol kecepatan menyediakan `0.5×`, `1×`, `2×`, `4×`, dan `Skip`. Efek suara dibuat dengan Web Audio API sehingga tidak membutuhkan file audio eksternal dan tetap offline.

@@ -15,7 +15,6 @@ Kemudian buka `http://localhost:8000/projects/congklak/`.
 ## Arsitektur
 
 - `index.html`: struktur halaman dan elemen UI.
-- `styles.css`: tema visual, layout responsif, dan orientasi duel.
 - `game.js`: entry point dan logika permainan vanilla.
 - `styles.css`: tema visual, papan, layout responsif, dan orientasi duel.
 

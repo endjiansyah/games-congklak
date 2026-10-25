@@ -46,7 +46,7 @@ projects/
   congklak/
     index.html
     styles.css
-    script.js
+    game.js
 docs/
   README.md
   PROGRESS.md

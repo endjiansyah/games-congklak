@@ -38,7 +38,7 @@ Pada duel desktop, area permainan menampilkan dua papan POV berdampingan: papan 
 
 Kontrol kecepatan menyediakan `0.5×`, `1×`, `2×`, `4×`, dan `Skip`. Efek suara dibuat dengan Web Audio API sehingga tidak membutuhkan file audio eksternal dan tetap offline.
 
-Tombol `Cara bermain` membuka aturan lengkap dalam modal. Sebelum permainan baru, pemain dapat memilih Pemain 1, Pemain 2, atau Acak sebagai pemulai. Setelah permainan selesai, modal hasil menampilkan skor, langkah, capture, giliran tambahan, akurasi strategi berbasis heuristik, dan saran.
+Tombol `Cara bermain` membuka aturan lengkap dalam modal. Sebelum permainan baru, pemain dapat memilih Pemain 1, Pemain 2, atau Acak sebagai pemulai. Setelah permainan selesai, modal hasil menampilkan skor, langkah, capture, dan giliran tambahan.
 
 Dalam duel, hanya papan pemain yang sedang mendapat giliran yang menyala dan dapat diklik. Papan pemain lain dibuat redup dan seluruh lubangnya dinonaktifkan.
 

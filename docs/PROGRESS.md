@@ -83,3 +83,4 @@ Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian c
 - [x] Logo EndProjects dapat diklik menuju portfolio.
 - [x] Status Ready/placeholder awal dihapus.
 - [x] Footer dan dropdown bahasa dipindahkan ke alur normal agar tidak menutupi konten.
+- [x] Metrik akurasi strategi dan teks saran di modal result dihapus karena tidak relevan.

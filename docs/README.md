@@ -1,6 +1,6 @@
 # Congklak Web Game
 
-Game congklak offline bertema Nusantara dengan gaya low-poly 3D, dibuat tanpa framework.
+Game congklak offline bertema Nusantara dengan gaya low-poly 3D, dibuat tanpa framework. Kredit proyek: [Endjiansyah](https://endjiansyah.github.io/).
 
 ## Menjalankan
 
@@ -44,6 +44,8 @@ Dalam duel, hanya papan pemain yang sedang mendapat giliran yang menyala dan dap
 
 Jika salah satu lumbung memiliki lebih dari 49 dari total 98 biji, tombol `Akhiri permainan & lihat hasil` muncul karena pemenang sudah dipastikan secara matematis. Tombol ini membatalkan ronde aktif dan membuka result.
 
-AI `Sepuh` memakai pencarian lebih dalam setelah permainan berjalan. Jika komputer menjadi pemain pertama, pembukaan diberi handicap ringan: pencarian lebih dangkal dan menghindari langkah pembukaan yang langsung menghasilkan rantai ekstrem.
+AI `Sepuh` memakai pencarian lebih dalam setelah permainan berjalan. Jika komputer menjadi pemain pertama, pembukaan sengaja memilih rantai dengan hasil lumbung paling kecil agar tidak langsung menghasilkan pembukaan ekstrem.
+
+Logo lokal berada di `projects/congklak/assets/endprojects-logo.webp`, bersumber dari situs portfolio Endjiansyah, sehingga game tidak membutuhkan koneksi eksternal saat dimainkan.
 
 Papan nonaktif sengaja hanya diredupkan ringan agar jejak biji tetap dapat diamati. Glow putih menandai lumbung yang sedang menerima biji. Dropdown bahasa di kiri bawah menerjemahkan UI ke Indonesia atau English, termasuk status permainan, aturan, trivia, dan modal hasil.

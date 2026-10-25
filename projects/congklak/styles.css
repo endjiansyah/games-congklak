@@ -23,6 +23,8 @@ h1 { margin: 0; font-size: clamp(3rem, 10vw, 7rem); line-height: .9; }
 
 /* Playable board skin */
 .app-shell { width: min(1080px, 92vw); }
+.brand-mark img { width: 30px; height: 30px; border-radius: 8px; object-fit: contain; background: #f5e7c7; }
+.creator-credit { position: fixed; right: 15px; bottom: 14px; z-index: 10; margin: 0; color: #8ca497; font-size: .68rem; }.creator-credit a { color: #e9b667; text-decoration: none; }.creator-credit a:hover { text-decoration: underline; }
 .brand-bar, .game-info, .board-actions { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
 .brand-mark { display: flex; align-items: center; gap: 9px; color: #e9b667; font-size: .82rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }.brand-seal { display: grid; width: 25px; height: 25px; place-items: center; border: 1px solid #e9b667; border-radius: 7px; font-family: Georgia, serif; font-size: 1.1rem; font-style: italic; }
 .hero { padding: clamp(60px, 10vw, 112px) 0 42px; text-align: center; }.hero h1 { font-family: Georgia, serif; font-size: clamp(4rem, 12vw, 8.2rem); letter-spacing: -.08em; line-height: .82; }.hero-copy { max-width: 430px; margin: 25px auto 0; color: #b9c8ae; font-size: 1.05rem; line-height: 1.6; }

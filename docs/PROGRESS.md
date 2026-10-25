@@ -63,3 +63,5 @@ Lakukan pemeriksaan manual lintas ukuran layar dan penyempurnaan aturan varian c
 - [x] Akurasi hasil memakai skala relatif terhadap opsi langkah yang tersedia.
 - [x] Dropdown bahasa placeholder di kiri bawah.
 - [x] Trivia Congklak dan dekorasi low-poly ringan ditambahkan.
+- [x] Pergantian bahasa Indonesia/English diterapkan pada UI dan status dinamis.
+- [x] Pilihan pemain pertama diterapkan pada Solo dan Duel.

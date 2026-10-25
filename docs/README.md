@@ -42,4 +42,4 @@ Tombol `Cara bermain` membuka aturan lengkap dalam modal. Sebelum permainan baru
 
 Dalam duel, hanya papan pemain yang sedang mendapat giliran yang menyala dan dapat diklik. Papan pemain lain dibuat redup dan seluruh lubangnya dinonaktifkan.
 
-Papan nonaktif sengaja hanya diredupkan ringan agar jejak biji tetap dapat diamati. Glow putih menandai lumbung yang sedang menerima biji. Dropdown bahasa di kiri bawah saat ini sudah menjadi placeholder UI; penerjemahan penuh akan dikerjakan pada milestone bahasa terpisah.
+Papan nonaktif sengaja hanya diredupkan ringan agar jejak biji tetap dapat diamati. Glow putih menandai lumbung yang sedang menerima biji. Dropdown bahasa di kiri bawah menerjemahkan UI ke Indonesia atau English, termasuk status permainan, aturan, trivia, dan modal hasil.

@@ -4,7 +4,7 @@ Game congklak offline bertema Nusantara dengan gaya low-poly 3D, dibuat tanpa fr
 
 
 <div align="center">
-  <h2><a href="https://endprojects-congklak.vercel.app/">Coba Mainkan!</a></h2>
+  <h2><a href="https://endprojects-congklak.vercel.app/" target="_blank">Coba Mainkan!</a></h2>
 </div>
 
 ## Menjalankan

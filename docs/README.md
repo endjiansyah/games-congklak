@@ -2,7 +2,10 @@
 
 Game congklak offline bertema Nusantara dengan gaya low-poly 3D, dibuat tanpa framework. Kredit proyek: [Endjiansyah](https://endjiansyah.github.io/).
 
-<kbd>[**Coba Game**]([https://github.com](https://endprojects-congklak.vercel.app/))</kbd>
+
+<div align="center">
+  <h2><a href="https://endprojects-congklak.vercel.app/">Coba Mainkan!</a></h2>
+</div>
 
 ## Menjalankan
 
